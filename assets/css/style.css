@@ -1,0 +1,154 @@
+/* from here to the next comment is all for the header*/
+.header{
+    background-color: #ffffff;
+    width: 960px;
+    height: 60px;
+    margin: auto;
+}
+.white{
+    background-color:#ffffff;
+}
+.links{
+    float: right;
+    font-size: 17px;
+    padding:22px;
+    padding-right:0px;
+}
+.links button{
+    background-color:#ffffff;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.main{
+    font-size:30px;
+    text-align: center;
+    background-color:#4aaaa5;
+    width:240px;
+    padding:15px;
+    color:#ffffff; 
+    float:left;
+
+}
+/* This is where the end of the header css is */
+/* This is for the main section of the page */
+.body{
+    width: 960px;
+    height:auto;
+    margin:auto;
+    margin-top:40px;
+    background-color: #ffffff;
+    padding: 0px 30px 20px 30px;
+    box-sizing: border-box;
+    margin-bottom:20px;
+    padding-bottom:20px
+}
+/* Here is the css for the header of the main section */
+.bodyh{
+    font-size:30px;
+    border-bottom:#dddddd solid 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+}
+/* Clear fix */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* Index.html images */
+.aboutimg{
+    float: left;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+.p{
+    font-size: 16px;
+    line-height: 30px;
+}
+/* Footer for all pages  until next comment*/
+.footer{
+    position: fixed;
+    left:0;
+    bottom:0;
+    text-align:center;
+    background-color: #4aaaa5;
+    width:100%;
+    height: 40px;
+    color: white;
+}
+.bottom{
+    box-sizing: border-box;
+    background-color: #666666;
+    left:0;
+    bottom:0;
+    position:fixed;
+    width:100%;
+    height:36px;
+    padding-top:19px;
+}
+/* End of Footer */
+/* Css for the images in the porfolio until next comment*/
+.images{
+    height: 250px;
+    width: 300px;
+}
+.left{
+    float: left;
+}
+.right{
+    padding-left:100px;
+
+}
+.container{
+    position: relative;
+    text-align: center;
+    color:white;
+    height: 250px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.center{
+    box-sizing: border-box;
+    position: absolute;
+    top: 70%;
+    z-index: 2;
+    color:white;
+    background-color:#4aaaa5;
+    width:100%;
+    height: 50px;
+    padding-top: 18px;
+}
+/* End of portfolio css */
+/* start for the contact css */
+.headerc{ 
+    width: 100%;
+    float:left;
+    margin-bottom:5px;
+}
+.input {
+    width: 100%;
+    float:left;
+    margin-bottom:20px;
+}
+.button{
+    background-color:#4aaaa5;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 20px 10px 20px;
+    margin-top:10px;
+}
+/* End of the contact css */
+body{
+    background-image: url(../images/cork-board.png);
+}
